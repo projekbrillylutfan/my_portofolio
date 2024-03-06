@@ -1,7 +1,15 @@
+import About from "./components/About/About";
+import BackTo from "./components/BackTo/BackTo";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+
 function App() {
   return (
     <>
-      <div className="flex items-center justify-center bg-red-500">ayam</div>
+      <Header />
+      <Hero />
+      <About />
+      <BackTo />
     </>
   );
 }
